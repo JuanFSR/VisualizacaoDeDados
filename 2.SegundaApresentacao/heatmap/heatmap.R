@@ -27,8 +27,8 @@ p <- heatmaply(mat,
                labCol = colnames(mat),
                labRow = rownames(mat),
                xlab = "Faixas Etárias",
-               ylab = "Área",
-               main = "Quantidade de Reclamações",
+               ylab = "Áreas",
+               main = "Heatmap - Áreas das reclamações por faixa etárias",
                key.title = "Reclamações",
                heatmap_layers = theme(axis.line=element_blank())
 )
