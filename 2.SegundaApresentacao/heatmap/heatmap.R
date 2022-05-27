@@ -23,9 +23,13 @@ p <- heatmaply(mat,
                grid_color = "white",
                grid_width = 0.00001,
                branches_lwd = 0.1,
-               label_names = c("Área", "Faixa", "Quantidade"),
+               label_names = c("Área", "Faixa", "Reclamações"),
                labCol = colnames(mat),
                labRow = rownames(mat),
+               xlab = "Faixas Etárias",
+               ylab = "Área",
+               main = "Quantidade de Reclamações",
+               key.title = "Reclamações",
                heatmap_layers = theme(axis.line=element_blank())
 )
 
